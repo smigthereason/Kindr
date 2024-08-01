@@ -1,0 +1,16 @@
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    padding: 4rem 1.25rem;
+  
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 4rem 2rem;
+    }
+  
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
