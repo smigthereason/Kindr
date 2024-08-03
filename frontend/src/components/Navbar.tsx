@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="sticky top-0 bg-black shadow-md z-50 w-full">
-      <div className="max-w-7xl mx-auto  ">
+    <nav className="sticky top-0 bg-black shadow-md z-50 w-screen">
+      <div className="max-w-7xl mx-auto ">
         <div className="flex items-center justify-between h-16 sm:h-20 md:h-24">
           {/* Center - Logo */}
           <div className="flex-1 flex justify-start w-full sm:w-1/2 md:w-1/5 mb-6 md:mb-0">
