@@ -1,22 +1,21 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import  Navbar  from './components/Navbar'
+import Footer from './components/Footer'
 import BeneficiaryPage from './pages/BeneficiaryPage'
 
-function App() {
+ 
+  const App: React.FC = () => {
  
 
-  return (
-        <div>
-     
-      
-        // <BeneficiaryPage/>
-
-        </div>
-        
-       
-     
-     
-   
-  )
-}
-
-export default App
+    return (
+      <>
+        <Router>
+          <Navbar />
+          <BeneficiaryPage/>
+          <Footer />
+        </Router>
+      </>
+    )
+  }
+  
+  export default App

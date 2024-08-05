@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import '../styles/BeneficiaryPage.css';
-import headerImage from '../assets/Group 277.jpg';
+import headerImage from '../assets/Group_277.jpg'
 import educationImage from '../assets/Rectangle 31.jpg';
 import unemploymentImage from '../assets/Group 136.jpg';
 import betterLifeImage from '../assets/Group 137.jpg';
 import CountUp from 'react-countup';
-import ProgressBar from '../components/ProgressBar';
 
+import ProgressBar from '../components/ProgressBar';
 
 
 const testimonials = [
@@ -41,6 +41,7 @@ const BeneficiaryPage: React.FC = () => {
 
     return (
         <div className="beneficiary-page">
+            
             <header className="header">
                 <img src={headerImage} alt="Beneficiaries" className="header-image" />
                 <h3>Education Needs For Change The World.</h3>
@@ -136,7 +137,7 @@ const BeneficiaryPage: React.FC = () => {
                 </div>
             </section>
 
-           
+            
         </div>
 
     );
