@@ -13,7 +13,7 @@ import placeholder from "../assets/images/placeholder.png";
 const Sidebar = () => {
   return (
     <div>
-      <aside className="fixed inset-y-0 left-0 bg-secondary shadow-md max-h-screen w-60">
+      <aside className="fixed inset-y-0 left-0 bg-secondary shadow-md max-h-screen w-60 z-40">
         <div className="flex flex-col justify-between h-full">
           <div className="flex-grow">
             <div className="px-4 py-6 text-center">
