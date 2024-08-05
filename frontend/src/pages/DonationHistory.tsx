@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/DonationHistory.css';
 import image1 from '../assets/Group 3.jpg';
-import image2 from '../assets/Group 3 (2).jpg';
+import image2 from '../assets/Group 3 (1).jpg';
 import kindrLogo from '../assets/kindr-logo-white 1.png';
 import pieChartImage from '../assets/pie-chart.png';
 import barGraphImage from '../assets/graph-bar.png';
