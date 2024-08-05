@@ -12,9 +12,9 @@ function App() {
 
   return (
     <Router>
-    <div className=" flex">
+    <div className=" flex w-screen h-screen">
       <Sidebar />
-      <main className=" flex-1 ml-60 p-4 text-white ">
+      <main className="ml-60 flex-1 p-4 text-white ">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/beneficiaries" element={<Beneficiaries />} />
