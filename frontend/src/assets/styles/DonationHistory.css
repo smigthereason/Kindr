@@ -1,0 +1,198 @@
+/* DonationHistory.css */
+.donation-history-container {
+    display: flex; 
+  }  
+   
+  
+  .sidebar {
+    background-color: #29221D;
+    width: 258px;
+    height: 812px;
+  }
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding-top: 20px;
+    width: 180px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 29px;
+    margin-left:110px;
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 350px; /* Pushes the profile section to the bottom */
+    border-top: 1px solid #444242; /* Optional top border for separation */
+  }
+  
+  .profile-photo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #E6E7E9;
+  }
+  
+  .profile-details {
+    flex: 1;
+  }
+  
+  .profile-name {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .profile-role {
+    font-size: 0.9rem;
+    color: #b6b4b4;
+  }
+  
+  .profile-controls {
+    display: flex;
+    flex-direction: column; /* Stack arrows vertically */
+    align-items: center;
+  }
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    color: #E6E7E9;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .arrow-button:hover {
+    color: #fff;
+  }
+  
+  .sidebar-icon {
+    width: 24px; /* Adjust as needed */
+    height: 24px; /* Adjust as needed */
+    margin-right: 20px;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #444; /* Highlight on hover */
+    border-radius: 5px;
+    
+  }
+  
+  .content {
+    flex: 1; 
+    background-color: #29221D;
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 1250px;
+    border-radius: 20px;
+    padding: 20px 90px 20px 90px;
+    box-shadow: 0 0 10px rgba(176, 189, 5, 0.342);
+  }
+  
+  .table-header {
+    background-color: #333; 
+    color: #fff; 
+    font-weight: bold; 
+    /* Thin line below the table headers */
+  }
+  
+  table {
+    border: none; 
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    text-align: left;
+  }
+  
+  tbody tr {
+    background-color: #29221D; 
+  }
+  
+  th, td {
+    padding: 20px;  
+    text-align: left; /* Left-align text */
+  }
+  
+  th {
+    background-color: #29221D; /* Darker header background */
+    font-weight: bold; /* Bold header text */
+    color: #b6b4b4;
+  }
+  
+  tbody td {
+    color: #ffffff; 
+  }
+  
+  .donation-button {
+    background-color: #FF6633;
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    margin-top: 12px;
+  }
+  
+  .dashboard-section {
+    background-color: #29221D; /* Light background color for distinction */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-left: 34px;
+    width: calc(100% - 34px); /* Adjust to fit the content area */
+  }
+  
+  .dashboard-section h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .active {
+    color: #FF6633;
+  }
+  
+  .inactive {
+    color: #b6b4b4;
+  }
+  
+  .kindr-logo {
+    width: 100%; /* Make logo full-width of sidebar */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 150px; /* Limit maximum width */
+    display: block; /* Ensure logo is a block-level element */
+    margin-top: 40px; /* Space below the logo */
+    margin-left: 40px;
+  }
+  
+  .logo-divider {
+    width: 180px;
+    margin-top: 30px;
+    height: 1px; /* Thin line */
+    margin-left: 40px;
+    background-color: #E6E7E9; /* Light gray color for the line */
+  }
+  
+  .header-divider {
+    width: 100%;
+    height: 1px; 
+    background-color: #444242; 
+    margin: 10px 0; /* Space above and below the line */
+  }
+  
+  .transaction-image {
+    width: 39.49px; /* Adjust size as needed */
+    height: 32px;
+    margin-right: 15px; /* Space between image and text */
+    vertical-align: middle;
+  }
