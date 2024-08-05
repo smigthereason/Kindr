@@ -1,6 +1,6 @@
 import './App.css'
-import DonationHistory from './pages/DonationHistory'
-// import BeneficiaryPage from './pages/BeneficiaryPage'
+// import DonationHistory from './pages/DonationHistory'
+import BeneficiaryPage from './pages/BeneficiaryPage'
 
 function App() {
  
@@ -8,8 +8,8 @@ function App() {
   return (
         <div>
      
-         <DonationHistory/>
-        {/* // <BeneficiaryPage/> */}
+         {/* <DonationHistory/> */}
+        // <BeneficiaryPage/>
 
         </div>
         
