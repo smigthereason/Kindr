@@ -8,12 +8,21 @@ import {
   RiSettings4Fill,
 } from "react-icons/ri";
 import logo from "../assets/images/kindr-logo-white.png";
+import { MdKeyboardArrowDown } from "react-icons/md";
 import placeholder from "../assets/images/placeholder.png";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Sidebar = () => {
   return (
     <div>
-      <aside className="fixed inset-y-0 left-0 bg-secondary shadow-md max-h-screen w-60 z-40">
+      <aside className="fixed inset-y-0 left-0 bg-secondary shadow-md w-60">
         <div className="flex flex-col justify-between h-full">
           <div className="flex-grow">
             <div className="px-4 py-6 text-center">
@@ -106,10 +115,26 @@ const Sidebar = () => {
           </div>
           <div className="p-4">
             <hr className="mx-1 mb-3 border-stone-500" />
-            <div className=" flex items-center justify-center">
-              <img src={placeholder} alt="User" className="rounded-full mr-2 h-8" />
-              <span className="text-white">Jane Smith</span>
-            </div>
+            <DropdownMenu>
+              <DropdownMenuTrigger>
+                <div className="flex flex-row items-center justify-center">
+                  <img
+                    src={placeholder}
+                    alt="User"
+                    className="rounded-full mr-2 h-8"
+                  />
+                  <span className="text-white">Jane Smith</span>
+                  <MdKeyboardArrowDown className="text-white ml-2" />
+                </div>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem>Dashboard</DropdownMenuItem>
+                <DropdownMenuItem>Settings</DropdownMenuItem>
+                <DropdownMenuItem>Log out</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
       </aside>
