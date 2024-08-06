@@ -1,7 +1,6 @@
 import React from "react";
 import Dashnav from "../components/Dashnav";
 import world from "../assets/images/world.png"
-
 const Dashboard = () => {
 
   return (
