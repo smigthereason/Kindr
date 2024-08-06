@@ -71,7 +71,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding-left: 935px; /* Adjust to control position */
+    padding-left: 569px; 
+    margin-bottom: 60px;
   }
   
   .donate-button:hover {
