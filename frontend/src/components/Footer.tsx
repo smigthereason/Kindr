@@ -6,14 +6,14 @@ import { footerLinks } from "../constants/index";
 
 const Footer = () => {
   return (
-    <section className="py-8 xl:py-20 text-white mt-auto">
+    <section className="py-8 xl:py-20 text-white">
       <div className="container mx-auto flex flex-row justify-between items-center">
         {/* logo */}
         <Link to="/">
           <img
             src={logo}
             alt="kindr logo"
-            className="h-12 object-cover mx-auto my-2"
+            className="h-10 object-cover mx-auto my-2"
           />
         </Link>
 
@@ -28,7 +28,7 @@ const Footer = () => {
                 {footerLink.links.map((link, index) => (
                   <Link to={link.link}>
                   <li key={link.name}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-white/60 hover:text-secondary cursor-pointer ${index !== footerLink.links.length -1 ? 'mb-4' : 'mb-0'}`}
+                    className={`font-poppins font-normal text-[16px] leading-[24px] text-white/60 hover:text-accent cursor-pointer ${index !== footerLink.links.length -1 ? 'mb-4' : 'mb-0'}`}
                     >
                     {link.name}
                   </li>

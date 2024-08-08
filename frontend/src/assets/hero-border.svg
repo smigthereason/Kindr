@@ -1,0 +1,20 @@
+<svg
+            width="600"
+            height="400"
+            xmlns="http://www.w3.org/2000/svg"
+            className="absolute inset-0" // Ensure it positions correctly
+          >
+            <rect
+              width="440"
+              height="240"
+              x="80"
+              y="80"
+              rx="120"
+              ry="120"
+              stroke="orange"
+              strokeWidth="4"
+              strokeDasharray="10, 20"
+              fill="none"
+              transform="rotate(35, 300, 200)"
+            />
+          </svg>

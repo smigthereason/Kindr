@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Donation from './pages/Donation';
 import Footer from './components/Footer';
+import Auth from './components/Auth';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <body>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/beneficiaries" element={<Beneficiaries />} />
           <Route path="/donations" element={<Donations />} />

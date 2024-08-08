@@ -8,14 +8,14 @@ import logo from "../assets/images/kindr-logo-white.png";
 
 const Header = () => {
   return (
-    <header className="py-8 xl:py-12 text-white bg-opacity-50 bg-world bg-cover bg-center bg-blend-darken">
+    <header className="py-8 xl:py-8 text-white z-50 bg-opacity-80 bg-world bg-cover bg-center bg-blend-darken">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link to="/">
           <img
             src={logo}
             alt="kindr logo"
-            className="h-12 object-cover mx-auto my-2"
+            className="h-10 object-cover mx-auto my-2"
           />
         </Link>
 

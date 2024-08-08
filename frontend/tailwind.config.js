@@ -26,10 +26,17 @@ module.exports = {
     extend: {
       colors: {
         accent: "#FF6633",
+        primary: "#191615",
         secondary: "#29221D",
+        creme: "#FFF5EA",
       },
       backgroundImage: {
         'world': "url('/src/assets/images/world-background.png')",
+        'story1': "url('/src/assets/images/story1.png')",
+        'story2': "url('/src/assets/images/story2.png')",
+        'story3': "url('/src/assets/images/story3.png')",
+        'story4': "url('/src/assets/images/story4.png')",
+        'story5': "url('/src/assets/images/story5.png')",
       },
       keyframes: {
         "accordion-down": {

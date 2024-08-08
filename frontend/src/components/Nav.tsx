@@ -27,7 +27,7 @@ const Nav = () => {
   
   return <nav className="flex gap-8">
   {links.map((link, index) => {
-    return <Link to={link.path} key={index} className={`${link.path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium text-2xl hover:text-accent transition-all`}>{link.name}</Link>
+    return <Link to={link.path} key={index} className={`${link.path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium text-xl hover:text-accent transition-all`}>{link.name}</Link>
   })}
   </nav>;
 };
