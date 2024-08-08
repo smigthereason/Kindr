@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-// import  Navbar  from './components/Navbar'
-// import Footer from './components/Footer'
+import  Navbar  from './components/Navbar'
+import Footer from './components/Footer'
 // import  About  from './pages/About'
 // import  Contact  from './pages/Contact'
 import  LandingPage  from './pages/LandingPage'
@@ -16,7 +16,7 @@ const App: React.FC = () => {
   return (
     <>
       <Router>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path='/' element={<LandingPage />} />
           {/* <Route path='/about' element={<About />} /> */}
@@ -24,7 +24,7 @@ const App: React.FC = () => {
           {/* <Route path='/login' element={<Login />} /> */}
         
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   )
