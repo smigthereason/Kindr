@@ -1,79 +1,71 @@
-body{
-  background-color: #000000;
-}
+/* DonationHistory.css */
+
 .donation-history-container {
-  display: flex; 
-  
-}  
- 
-.content {
-  flex: 1; 
+  display: flex;
   background-color: #29221D;
-  margin-top: 30px;
-  margin-left: 220px;
-  width: 1250px;
+  padding: 20px;
   border-radius: 20px;
-  padding: 20px 90px 20px 90px;
+  margin-top: 25px;
+  margin-left: 74px;
+  width: 1450px;
   box-shadow: 0 0 1px rgba(176, 189, 5, 0.342);
 }
 
-.table-header {
-  background-color: #333; 
-  color: #fff; 
-  font-weight: bold; 
-  /* Thin line below the table headers */
+.content {
+  flex: 1;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 table {
-  border: none; 
+  border: none;
   border-collapse: collapse;
   width: 100%;
-  background-color: #222;
+  /* background-color: #222; */
   color: #fff;
   text-align: left;
 }
-
-tbody tr {
-  background-color: #29221D; 
-}
+/* 
+thead {
+  background-color: #333;
+} */
 
 th, td {
-  padding: 20px;  
-  text-align: left; /* Left-align text */
+  padding: 20px;
+  text-align: left;
 }
 
 th {
-  background-color: #29221D; /* Darker header background */
-  font-weight: bold; /* Bold header text */
+  background-color: #29221D;
+  font-weight: bold;
   color: #b6b4b4;
 }
 
+tbody tr {
+  background-color: #29221D;
+}
+
 tbody td {
-  color: #ffffff; 
-}
-
-.donation-button {
-  background-color: #FF6633;
-  color: #fff; 
-  padding: 10px 20px; 
-  border-radius: 5px;
-  margin-top: 12px;
-}
-
-.dashboard-section {
-  background-color: #29221D; /* Light background color for distinction */
-  padding: 20px;
-  border-radius: 20px;
-  margin-bottom: 0px;
-  margin-top: 25px;
-  margin-left: 34px;
-  width: calc(100% - 34px); /* Adjust to fit the content area */
-}
-
-.dashboard-section h1 {
-  font-size: 2rem;
-  margin: 0;
   color: #ffffff;
+}
+
+/* Divider below the table headers */
+.header-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #444242; /* Match with table header background */
+  margin: 0; /* Remove margins for seamless alignment */
+}
+
+.transaction-image {
+  width: 39.49px;
+  height: 32px;
+  margin-right: 15px;
+  vertical-align: middle;
 }
 
 .active {
@@ -84,9 +76,16 @@ tbody td {
   color: #b6b4b4;
 }
 
-.transaction-image {
-  width: 39.49px; /* Adjust size as needed */
-  height: 32px;
-  margin-right: 15px; /* Space between image and text */
-  vertical-align: middle;
+.donation-button {
+  background-color: #FF6633;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.donation-button:hover {
+  background-color: #ff5422;
 }
