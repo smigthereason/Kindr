@@ -144,7 +144,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(151, 145, 145, 0.5);
+    background: rgba(0, 0, 0, 0.575);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,18 +155,28 @@
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    background-color:   #000000;
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    border-radius: 10px; /* Optional: adds rounded corners for a nicer look */
+    border: 1px solid white;
     padding: 20px;
     border-radius: 8px;
     width: 80%;
     max-width: 400px;
     position: relative;
   }
-  
+  .signup-content h2 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    left: 120px;
+  }
   .close-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 50px;
     background: none;
     border: none;
     font-size: 20px;
@@ -196,13 +206,15 @@
   
   .signup-content button[type="submit"] {
     padding: 10px 20px;
-    background-color: #a01d3d;
+    background-color: #ff8f33;
     color: white;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    position: relative;
+    left: 40%;
   }
   .signup-content button[type="submit"]:hover {
-    background-color: #770822;
+    background-color: #8d8184;
   }
