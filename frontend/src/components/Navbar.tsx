@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const Navbar: React.FC = () => {
   return (
     <nav className="sticky top-0 bg-black shadow-md z-50 w-screen">
@@ -20,16 +19,16 @@ const Navbar: React.FC = () => {
 
           {/* Right side - Home, About, Donate, and Contact */}
           <div className="flex items-center space-x-2 sm:space-x-4 text-4xl">
-            <Link to="/" className="text-white no-underline hover:underline">
+            <Link to="/" className="text-white hover:text-[#ff6633]">
               Home
             </Link>
-            <Link to="/about" className="text-white no-underline hover:underline">
+            <Link to="/about" className="text-white hover:text-[#ff6633]">
               About
             </Link>
-            <Link to="/donate" className="text-white no-underline hover:underline">
+            <Link to="/donate" className="text-white hover:text-[#ff6633]">
               Donate
             </Link>
-            <Link to="/contact" className="text-white no-underline hover:underline">
+            <Link to="/contact" className="text-white hover:text-[#ff6633]">
               Contact
             </Link>
           </div>

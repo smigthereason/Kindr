@@ -20,17 +20,17 @@ const Footer: React.FC = () => {
             <h3 className="font-bold mb-2">Company</h3>
             <ul className="text-xl space-y-1">
               <li>
-                <Link to="/about" className="no-underline hover:underline">
+                <Link to="/about" className="text-white no-underline hover:text-[#ff6633]">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="no-underline hover:underline">
+                <Link to="/contact" className="text-white no-underline hover:text-[#ff6633]">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="no-underline hover:underline">
+                <Link to="/contact" className="text-white no-underline hover:text-[#ff6633]">
                   Refund Policy
                 </Link>
               </li>
@@ -42,12 +42,12 @@ const Footer: React.FC = () => {
             <h3 className="font-bold mb-2">Product</h3>
             <ul className="text-xl space-y-1">
               <li>
-                <Link to="/pricing" className="no-underline hover:underline">
+                <Link to="/pricing" className="text-white no-underline hover:text-[#ff6633]">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link to="/customers" className="no-underline hover:underline">
+                <Link to="/customers" className="text-white no-underline hover:text-[#ff6633]">
                   Customers
                 </Link>
               </li>
@@ -59,17 +59,17 @@ const Footer: React.FC = () => {
             <h3 className="font-bold mb-2">Support</h3>
             <ul className="text-xl space-y-1">
               <li>
-                <Link to="/feedback" className="no-underline hover:underline">
+                <Link to="/feedback" className="text-white no-underline hover:text-[#ff6633]">
                   Feedback
                 </Link>
               </li>
               <li>
-                <Link to="/referrals" className="no-underline hover:underline">
+                <Link to="/referrals" className="text-white no-underline hover:text-[#ff6633]">
                   Referrals
                 </Link>
               </li>
               <li>
-                <Link to="/FAQ" className="no-underline hover:underline">
+                <Link to="/FAQ" className="text-white no-underline hover:text-[#ff6633]">
                   F.A.Q
                 </Link>
               </li>
@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="https://facebook.com"
-                  className="no-underline hover:underline"
+                  className="text-white no-underline hover:text-[#ff6633]"
                 >
                   Facebook
                 </Link>
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="https://instagram.com"
-                  className="no-underline hover:underline"
+                  className="text-white no-underline hover:text-[#ff6633]"
                 >
                   Instagram
                 </Link>
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="https://tiktok.com"
-                  className="no-underline hover:underline"
+                  className="text-white no-underline hover:text-[#ff6633]"
                 >
                   TikTok
                 </Link>
