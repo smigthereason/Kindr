@@ -10,15 +10,14 @@ const Stories = () => {
           </h3>
           <p className="text-white/80 text-xl">By you It’s happened</p>
           <p className="text-white/40 text-sm">
-            Lorem Ipsum is simply dummy text of the printin typesetting dummy
-            text ever when an unknown printer took a galley of type and
-            scrambled a type specimen book.{" "}
+          Your generosity transforms lives. Every donation, no matter how small, contributes to real change. {" "}
           </p>
         </div>
         <div className="bg-white/20 xl:col-span-3 xl:row-span-4 relative bg-story1 bg-cover mask-image">
           <div className="absolute bottom-2 left-5 z-10 z-10">
-            <h1 className=" leading-loose">Title</h1>
-            <p className="text-sm text-white/50 mb-2">Subtext</p>
+            <h1 className=" leading-loose">Amina's Dream Realized
+            </h1>
+            <p className="text-sm text-white/50 mb-2">Regular supplies keep Amina in school daily. Now top of her class, she aspires to become a doctor.</p>
 
             <p className="flex flex-row items-center justify-center gap-2 text-sm">
               Know more{" "}
@@ -28,8 +27,9 @@ const Stories = () => {
         </div>
         <div className="bg-white/20 xl:col-span-2 xl:row-span-3 relative bg-story2 bg-cover mask-image">
           <div className="absolute bottom-2 left-5 z-10">
-            <h1 className=" leading-loose">Title</h1>
-            <p className="text-sm text-white/50 mb-2">Subtext</p>
+            <h1 className=" leading-loose">Clean Water Brings Dignity
+            </h1>
+            <p className="text-sm text-white/50 mb-2">New sanitation at Makena Primary boosts attendance. Students attend without fear or discomfort.</p>
 
             <p className="flex flex-row items-center justify-center gap-2 text-sm">
               Know more{" "}
@@ -39,8 +39,8 @@ const Stories = () => {
         </div>
         <div className="bg-white/20 xl:col-span-2 xl:row-span-3 relative bg-story3 bg-cover mask-image bg-right-top bg-no-repeat">
           <div className="absolute bottom-2 left-5 z-10">
-            <h1 className=" leading-loose">Title</h1>
-            <p className="text-sm text-white/50 mb-2">Subtext</p>
+            <h1 className=" leading-loose">Kibera's Transformation</h1>
+            <p className="text-sm text-white/50 mb-2">Our program increased student's attendance by 35%. Mothers now see brighter futures for their children.</p>
 
             <p className="flex flex-row items-center justify-center gap-2 text-sm">
               Know more{" "}
@@ -50,8 +50,8 @@ const Stories = () => {
         </div>
         <div className="bg-white/20 xl:col-span-2 xl:row-span-3 relative bg-story4 bg-cover mask-image">
           <div className="absolute bottom-2 left-5 z-10">
-            <h1 className=" leading-loose">Title</h1>
-            <p className="text-sm text-white/50 mb-2">Subtext</p>
+            <h1 className=" leading-loose">Sarah: From Student to Mentor</h1>
+            <p className="text-sm text-white/50 mb-2">Consistent support led Sarah to graduate as valedictorian. Now she mentors younger students, spreading empowerment.</p>
 
             <p className="flex flex-row items-center justify-center gap-2 text-sm">
               Know more{" "}
@@ -61,8 +61,8 @@ const Stories = () => {
         </div>
         <div className="bg-white/20 xl:col-span-2 xl:row-span-3 relative bg-story5 bg-cover mask-image">
           <div className="absolute bottom-2 left-5 z-10">
-            <h1 className=" leading-loose">Title</h1>
-            <p className="text-sm text-white/50 mb-2">Subtext</p>
+            <h1 className=" leading-loose">Breaking Barriers Together</h1>
+            <p className="text-sm text-white/50 mb-2">Our inclusive program in Laikipia saw both girls and boys championing menstrual health. School attendance rose 50%, with boys actively supporting their female classmates.</p>
 
             <p className="flex flex-row items-center justify-center gap-2 text-sm">
               Know more{" "}
