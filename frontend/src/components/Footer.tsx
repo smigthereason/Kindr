@@ -7,7 +7,7 @@ import { footerLinks } from "../constants/index";
 const Footer = () => {
   return (
     <section className="py-8 xl:py-20 text-white">
-      <div className="container mx-auto flex flex-row justify-between items-center">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         {/* logo */}
         <Link to="/">
           <img
@@ -18,7 +18,7 @@ const Footer = () => {
         </Link>
 
         {/* footer menu */}
-        <div className="flex-1 w-full flex flex-row justify-end flex-wrap md:mt-0 mt-6 md:px-0 px-2">
+        <div className="flex-1 w-full flex flex-row justify-center lg:justify-end flex-wrap md:mt-0 mt-6 md:px-0 px-2">
           {footerLinks.map((footerLink, i) => (
             <div key={i} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
               <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">

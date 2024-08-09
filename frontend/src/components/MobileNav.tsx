@@ -3,23 +3,20 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Link, useLocation } from "react-router-dom";
 import { CiMenuFries } from "react-icons/ci";
+import logo from "../assets/images/kindr-logo-white.png";
 
 const links = [
   {
-    name: "home",
+    name: "Home",
     path: "/",
   },
   {
-    name: "services",
-    path: "/services",
+    name: "About Us",
+    path: "/about",
   },
   {
-    name: "resume",
-    path: "/resume",
-  },
-  {
-    name: "work",
-    path: "/work",
+    name: "Donations",
+    path: "/donation",
   },
   {
     name: "contact",
@@ -36,12 +33,14 @@ const MobileNav = () => {
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         {/* logo */}
-        <div className="mt-32 mb-40 text-center text-2xl">
-          <Link to="/">
-            <h1 className="text-4xl font-semibold">
-              Leon<span className="text-accent">.</span>
-            </h1>
-          </Link>
+        <div className="mt-32 mb-32 text-center text-2xl">
+        <Link to="/">
+          <img
+            src={logo}
+            alt="kindr logo"
+            className="h-9 object-cover mx-auto my-2"
+          />
+        </Link>
         </div>
         {/* nav */}
         <nav className="flex flex-col justify-center items-center gap-8">

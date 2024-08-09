@@ -15,7 +15,7 @@ const Header = () => {
           <img
             src={logo}
             alt="kindr logo"
-            className="h-10 object-cover mx-auto my-2"
+            className="h-6 md:h-8 xl:h-10 object-cover mx-auto my-2"
           />
         </Link>
 

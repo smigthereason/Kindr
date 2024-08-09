@@ -7,10 +7,10 @@ import hero from "../../assets/images/hero-image.png";
 const Hero = () => {
   return (
     <section className="relative mt-10 ">
-      <div className="flex flex-row justify-between items-center">
-        {/* text */}
-        <div className="xl:min-w-[600px]">
-          <h1 className="h2 text-wrap max-w-[600px]">
+      <div className="flex flex-row justify-center xl:justify-between items-center  overflow-hidden">
+        {/* text */}-[
+        <div className="xl:min-w-[600px] z-10">
+          <h1 className="h2 xl:text-start text-center tex max-w-[600px]">
             Seeking Financial Aid for Medical Emergencies or Social Causes?
           </h1>
           {/* btns */}

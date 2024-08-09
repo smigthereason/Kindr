@@ -12,21 +12,15 @@ const Home = () => {
         <Charities />
         <Stories />
       </div>
-      <div className="py-10 bg-white/20 mt-10 ">
-        <div className="container mx-auto flex flex-row justify-between items-center ">
+      <div className="py-10 bg-white/20 mt-20 ">
+        <div className="container mx-auto flex flex-col gap-8 xl:gap-0 xl:flex-row justify-center xl:justify-between items-center ">
           <div>
-            <h1 className="text-xl mb-2 font-bold">Get update on success stories</h1>
+            {/* <h1 className="text-xl mb-4 font-bold">Get update on success stories</h1> */}
             <p className="text-white/50">Get directly on your email</p>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-col xl:flex-row gap-4 items-center xl:items-start">
             {/* input */}
-            <div className="grid grid-cols-1 gap-1">
               <Input placeholder="Enter your email" />
-              <p className="text-white/60 text-sm">
-                We care about your data in our{" "}
-                <span className=" underline">privacy policy.</span>
-              </p>
-            </div>
             {/* button */}
             <Button variant="secondary" size="md" className="max-w-40">
               Subscribe

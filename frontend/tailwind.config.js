@@ -37,6 +37,7 @@ module.exports = {
         'story3': "url('/src/assets/images/story3.png')",
         'story4': "url('/src/assets/images/story4.png')",
         'story5': "url('/src/assets/images/story5.png')",
+        'about' : "url('/src/assets/images/about.png')",
       },
       keyframes: {
         "accordion-down": {
