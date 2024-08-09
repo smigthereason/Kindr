@@ -21,9 +21,7 @@ const About = () => {
             </div>
             <div className="xl:self-end max-w-[90vw] flex flex-col justify-between gap-6 z-10">
               <p className="pl-4 border-l-2 border-accent text-white/60 ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                aliquet urna ligula, ac vulputate eros tristique vel. Nunc erat
-                mi, volutpat non sem a, maximus
+              We are a dedicated organization committed to addressing the critical issue of menstrual health and education in sub-Saharan Africa. Founded in response to alarming statistics about girls missing school due to lack of sanitary supplies, we've expanded our focus to include providing clean water and proper sanitation facilities.
               </p>
               <p className="text-sm text-white/40"></p>
               <div className="flex flex-col xl:flex-row gap-4">
@@ -34,9 +32,7 @@ const About = () => {
                     others in need.
                   </p>
                   <p className="text-sm text-white/50 mt-9">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    aliquet urna ligula, ac vulputate eros tristique vel. Nunc
-                    erat mi, volutpat non sem a, maximus
+                  Our mission is to empower girls through education by eliminating barriers caused by inadequate menstrual health resources. We strive to create an environment where every girl can attend school with dignity, confidence, and the tools she needs to succeed.
                   </p>
                 </div>
                 <div className="p-4 flex flex-col justify-center items-center bg-stone-700 xl:min-h-[300px] xl:p-8 xl:justify-around rounded-md">
@@ -46,9 +42,7 @@ const About = () => {
                     others in need.
                   </p>
                   <p className="text-sm text-white/50 mt-9">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    aliquet urna ligula, ac vulputate eros tristique vel. Nunc
-                    erat mi, volutpat non sem a, maximus
+                  We envision a world where menstrual health is no longer an obstacle to education and opportunity. We aim to foster communities where both girls and boys understand and support menstrual health, leading to improved school attendance, gender equality, and ultimately, stronger, more prosperous societies.
                   </p>
                 </div>
               </div>
@@ -80,8 +74,7 @@ const About = () => {
                   <h2 className="text-white/80 h3">Accredited Causes</h2>
                 </p>
                 <p className="text-white/60 ">
-                  Our mission is to provide a platform for people to help others
-                  in need.
+                We partner only with verified, reputable organizations dedicated to improving menstrual health and education. Our rigorous vetting process ensures your donations make a real, measurable impact.
                 </p>
               </div>
               <div className="flex items-center self-start flex-col ">
@@ -91,8 +84,7 @@ const About = () => {
                   <h2 className="text-white/80 h3">Focused Support</h2>
                 </p>
                 <p className="text-white/60 ">
-                  Our mission is to provide a platform for people to help others
-                  in need.
+                We concentrate our efforts on providing sanitary supplies, clean water, and proper sanitation facilities. By addressing these specific needs, we maximize our impact on girls' education and community development.
                 </p>
               </div>
               <div className="flex text-start items-center  self-start flex-col ">
@@ -102,8 +94,7 @@ const About = () => {
                   <h2 className="text-white/80 h3">Data Driven</h2>
                 </p>
                 <p className="text-white/60 ">
-                  Our mission is to provide a platform for people to help others
-                  in need.
+                We rely on robust data and research to guide our initiatives. By tracking attendance rates, academic performance, and community feedback, we continuously refine our approach for optimal results.
                 </p>
               </div>
             </div>
@@ -114,13 +105,9 @@ const About = () => {
             <div className="mb-10 flex flex-col items-center justify-center">
               <h1 className="h2 text-center mb-5">Want to get Involved ?</h1>
               <p className="text-sm text-white/50 text-center max-w-[600px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                aliquet urna ligula, ac vulputate eros tristique vel. Nunc erat
-                mi, volutpat non sem a, maximus scelerisque augue. Sed pharetra,
-                est eget rhoncus faucibus, sem mi congue sem, in faucibus sem
-                turpis id est. In eu porta enim, vitae consectetur erat.Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
-                undoubtable source.
+              Your involvement can make a significant difference in the lives of countless girls across sub-Saharan Africa. By supporting our cause, you're not just providing sanitary supplies - you're opening doors to education, empowerment, and a brighter future.
+Whether you choose to make a one-time donation or set up recurring support, every contribution counts. Your generosity helps us provide essential resources, build proper facilities, and implement educational programs that create lasting change.
+Join us in breaking the cycle of missed school days and limited opportunities. Together, we can ensure that no girl has to choose between her education and her dignity.
               </p>
             </div>
             <div className="flex flex-col xl:flex-row items-center justify-around gap- xl:gap-0 ">
@@ -152,9 +139,9 @@ const About = () => {
             </h1>
             <p className="h3 mb-6">A Strong and Devoted Team</p>
             <p className="text-center text-white/60 xl:max-w-[500px] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              aliquet urna ligula, ac vulputate eros tristique vel. Nunc erat
-              mi, volutpat non sem a, maximus
+            We are a diverse group of passionate individuals united by a common goal: to improve girls' education through better menstrual health management. Our team combines expertise in education, public health, technology, and nonprofit management.
+From on-the-ground coordinators working directly with schools and communities, to our tech experts developing this donation platform, each member plays a crucial role. We're driven by the belief that every girl deserves the opportunity to attend school without interruption, and we work tirelessly to make this a reality.
+Together, we're not just distributing supplies - we're building a movement for lasting change in sub-Saharan Africa.
             </p>
           </div>
         </div>
